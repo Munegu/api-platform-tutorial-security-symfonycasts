@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d338745-8cad-44e8-9ee3-b23db79c9d04" name="Default Changelist" comment="" />
+    <list default="true" id="1d338745-8cad-44e8-9ee3-b23db79c9d04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/LoginForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/LoginForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -98,11 +106,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kBVXbsU1SP20lgmRL2ajk5O8Wq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -120,11 +132,25 @@
       <option name="presentableId" value="Default" />
       <updated>1605174013270</updated>
       <workItem from="1605174015099" duration="1539000" />
+      <workItem from="1605175791654" duration="1556000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1605175844856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605175844856</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="514" y="337" key="#Composer" timestamp="1605174033083">
@@ -135,6 +161,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="296" y="151" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1605174427545" />
+    <state x="69" y="53" key="CommitChangelistDialog2" timestamp="1605175844506">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="69" y="53" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1605175844506" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1605175787544">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -151,5 +181,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1605175787543" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605175856993">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1605175856993" />
   </component>
 </project>
