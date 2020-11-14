@@ -4,39 +4,28 @@
 namespace App\Tests\Functional;
 
 
-use App\ApiPlatform\Test\ApiTestCase;
-use App\Entity\User;
-use Doctrine\ORM\EntityManagerInterface;
+use App\Test\CustomApiTestCase;
+use Hautelook\AliceBundle\PhpUnit\ReloadDatabaseTrait;
 
-class CheeseListingRessourceTest extends ApiTestCase
+class CheeseListingRessourceTest extends CustomApiTestCase
 {
+    use ReloadDatabaseTrait;
+
     public function testCreateCheeseListing()
     {
         $client = self::createClient();
         $client->request('POST','/api/cheeses', [
-            'headers' => ['Content-Type' => 'application/json'],
             'json' => [],
         ]);
 
-        $this->assertResponseStatusCodeSame(401);
+        self::assertResponseStatusCodeSame(401);
 
+        $this->createUserAndLogIn($client,'cheeseplease@example.com', 'foo');
 
-        $user = new User();
-        $user->setEmail('emaildetest@orange.fr');
-        $user->setUsername('username');
-        $user->setPassword('$2y$13$ywezyFzIOcHbNsaFDrX9b.ZM8zxVz1o4tYJ8nVmxHkgc26XXOU/rO');
-
-        $em = self::$container->get(EntityManagerInterface::class);
-        $em->persist($user);
-        $em->flush();
-
-        $client->request('POST','/login', [
-            'headers' => ['Content-Type' => 'application/json'],
-            'json' => [
-                'email' => 'emaildetest@orange.fr',
-                'password' => 'foo'
-            ],
+        $client->request('POST','/api/cheeses', [
+            'json' => [],
         ]);
-        $this->assertResponseStatusCodeSame(204);
+        $this->assertResponseStatusCodeSame(400);
+
     }
 }
