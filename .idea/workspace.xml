@@ -2,27 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d338745-8cad-44e8-9ee3-b23db79c9d04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/hautelook_alice.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/nelmio_alice.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/deprecations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/hautelook_alice.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/nelmio_alice.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixtures/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/CustomApiTestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43f927fd-c315-4483-ba15-165331bca9f9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43f927fd-c315-4483-ba15-165331bca9f9.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/start.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/CheeseWhizApp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/CheeseWhizApp.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/LoginForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/LoginForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/phpunit" beforeDir="false" afterPath="$PROJECT_DIR$/bin/phpunit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/api_platform.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/api_platform.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/prod/api_platform.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/prod/api_platform.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/prod/deprecations.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/test/monolog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/test/monolog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services_test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services_test.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApiPlatform/Test/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/CheeseListing.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/CheeseListing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/CustomApiTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/CustomApiTestCase.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Functional/CheeseListingRessourceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Functional/CheeseListingRessourceTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/homepage.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Functional/CheeseListingRessourceTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +48,6 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
       <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
@@ -64,7 +69,6 @@
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
-      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/nelmio/cors-bundle" />
       <path value="$PROJECT_DIR$/vendor/psr/cache" />
@@ -85,7 +89,6 @@
       <path value="$PROJECT_DIR$/vendor/symfony/config" />
       <path value="$PROJECT_DIR$/vendor/symfony/security-http" />
       <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
-      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
       <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
@@ -129,7 +132,6 @@
       <path value="$PROJECT_DIR$/vendor/theofidry/alice-data-fixtures" />
       <path value="$PROJECT_DIR$/vendor/hautelook/alice-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
-      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
       <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
       <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
       <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
@@ -138,6 +140,11 @@
       <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/test-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kBVXbsU1SP20lgmRL2ajk5O8Wq" />
@@ -176,7 +183,8 @@
       <workItem from="1605189918583" duration="1869000" />
       <workItem from="1605257386726" duration="6546000" />
       <workItem from="1605341358939" duration="25000" />
-      <workItem from="1605362857814" duration="2190000" />
+      <workItem from="1605362857814" duration="2413000" />
+      <workItem from="1605517130976" duration="2977000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1605175844856</created>
@@ -213,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605280062599</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="First Commit">
+      <created>1605365373088</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605365373088</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,14 +248,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="296" y="151" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1605363485547" />
-    <state x="458" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605364193718">
+    <state x="458" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605517568597">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1605364193718" />
-    <state x="69" y="53" key="CommitChangelistDialog2" timestamp="1605280062409">
+    <state x="458" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1605517568597" />
+    <state x="69" y="53" key="CommitChangelistDialog2" timestamp="1605365372861">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="69" y="53" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1605280062409" />
+    <state x="69" y="53" key="CommitChangelistDialog2/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1605365372861" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1605175787544">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -261,9 +276,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="152" y="183" key="NewPhpClassDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1605364053550" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605280065585">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605365376333">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1605280065585" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1605365376333" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605519459764">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1605519459764" />
   </component>
 </project>

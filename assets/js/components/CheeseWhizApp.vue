@@ -60,11 +60,11 @@
                 user: null
             }
         },
-      mounted() {
-          if (window.user) {
-            this.user = window.user;
-          }
-      }
+        mounted() {
+            if (window.user) {
+                this.user = window.user;
+            }
+        }
     }
 </script>
 
